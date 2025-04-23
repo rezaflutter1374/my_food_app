@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 class AppStyles {
-  // رنگ‌های اصلی
+ 
   static const Color primaryTextColor = Color(0xFFFFFFFF);
   static const Color secondaryTextColor = Colors.white;
-  static const Color accentColor = Color(0xFFF35F09); // رنگ اکسان اختیاری
+  static const Color accentColor = Color(0xFFF35F09); 
 
-  // استایل‌های فونت
+
   static const String fontFamily = 'AppleGaramond';
 
-  // عنوان اصلی - مشکی بلد
+
   static TextStyle titleStyle = TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
@@ -17,7 +17,7 @@ class AppStyles {
     color: const Color.fromARGB(255, 8, 6, 6),
   );
 
-  // زیرعنوان - مشکی نیمه بلد
+ 
   static TextStyle subtitleStyle = TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w600,
@@ -25,7 +25,7 @@ class AppStyles {
     color: const Color(0xFF060606),
   );
 
-  // متن معمولی - مشکی
+
   static TextStyle bodyStyle = TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.normal,
@@ -34,7 +34,7 @@ class AppStyles {
     color: const Color(0xFF040303),
   );
 
-  // متن سفید بلد
+
   static TextStyle whiteBoldStyle = TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
@@ -42,7 +42,7 @@ class AppStyles {
     color: secondaryTextColor,
   );
 
-  // متن سفید معمولی
+ 
   static TextStyle whiteNormalStyle = TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.normal,
@@ -50,7 +50,7 @@ class AppStyles {
     color: secondaryTextColor,
   );
 
-  // دکمه اصلی - سفید روی مشکی
+
   static ButtonStyle primaryButtonStyle = ElevatedButton.styleFrom(
     backgroundColor: primaryTextColor,
     foregroundColor: secondaryTextColor,
@@ -59,10 +59,10 @@ class AppStyles {
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
   );
 
-  // رنگ جدید برای دکمه نارنجی
+ 
   static const Color orangeButtonColor = Color(0xFFFF6B35);
 
-  // دکمه نارنجی بزرگ
+
   static ButtonStyle orangeButtonStyle = ElevatedButton.styleFrom(
     backgroundColor: orangeButtonColor,
     foregroundColor: Colors.white,
@@ -76,7 +76,7 @@ class AppStyles {
     ),
   );
 
-  // دکمه کوچک ثانویه
+
   static ButtonStyle smallButtonStyle = ElevatedButton.styleFrom(
     backgroundColor: Colors.white,
     foregroundColor: primaryTextColor,
@@ -85,7 +85,7 @@ class AppStyles {
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),
   );
 
-  // استایل پیشفرض برای TextField
+ 
   static InputDecorationTheme textFieldTheme = InputDecorationTheme(
     filled: true,
     fillColor: const Color(0xFFFFFFFF),
@@ -114,7 +114,7 @@ class AppStyles {
     ),
   );
 
-  // استایل متن داخل TextField
+ 
   static TextStyle textFieldTextStyle = TextStyle(
     color: const Color.fromARGB(255, 17, 16, 16),
     fontFamily: fontFamily,
@@ -122,7 +122,7 @@ class AppStyles {
     fontSize: 16,
   );
 
-  // استایل برای متن های تاکیدی
+ 
   static TextStyle featuredTextStyle = TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w700,
